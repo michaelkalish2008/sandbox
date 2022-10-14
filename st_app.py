@@ -28,5 +28,6 @@ elif sb == '-':
     else:
         z = y - x
 
-st.balloons(f'The answer to your problem is {z}')
+st.balloons()
+st.write(f'The answer to your problem is {z}')
 

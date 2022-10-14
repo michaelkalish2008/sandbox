@@ -14,7 +14,7 @@ z = 0
 if sb == '*':
     z = x * y
 elif sb == '/':
-    numerator = st.sidebar.radio('Which number should be the numerator?',[f'{x}',f'{y}'])
+    numerator = st.sidebar.radio('Which number should be the numerator?',[x,y])
     if numerator == x:
         z = x / y
     else:
@@ -22,7 +22,7 @@ elif sb == '/':
 elif sb == '+':
     z = x + y
 elif sb == '-':
-    start_number = st.sidebar.radio('Which number should we subtract from?',[f'{x}',f'{y}'])
+    start_number = st.sidebar.radio('Which number should we subtract from?',[x,y])
     if start_number == x:
         z = x - y
     else:

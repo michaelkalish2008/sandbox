@@ -7,8 +7,8 @@ st.subheader('Just an app')
 
 sb = st.sidebar.radio('Select an operation',['*','/','+','-'])
 
-x = st.sidebar.number_input('Pick a number', 1, 10)
-y = st.sidebar.number_input('Pick another number', 1, 10)
+x = st.sidebar.slider('Pick a number', 1, 10)
+y = st.sidebar.slider('Pick another number', 1, 10)
 z = 0
 
 if sb == '*':
